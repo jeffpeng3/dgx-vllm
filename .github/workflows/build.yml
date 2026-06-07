@@ -6,7 +6,7 @@ on:
   workflow_dispatch:          # Manual trigger (always forces build)
 
 env:
-  IMAGE_BASE: ghcr.io/spark-arena/dgx-vllm-eugr
+  IMAGE_BASE: ghcr.io/${{ github.repository }}
 
 concurrency:
   group: build
