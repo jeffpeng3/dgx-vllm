@@ -6,7 +6,7 @@ on:
   workflow_dispatch:          # Manual trigger (always forces a mirror)
 
 env:
-  IMAGE_BASE: ghcr.io/spark-arena/dgx-vllm-eugr
+  IMAGE_BASE: ghcr.io/jeffpeng3/dgx-vllm-eugr
   SOURCE_IMAGE: docker.io/eugr/spark-vllm
   SOURCE_IMAGE_B12X: docker.io/eugr/spark-vllm-b12x
 
